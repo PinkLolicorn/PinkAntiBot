@@ -1,0 +1,5 @@
+name: ${project.name}
+version: ${project.version}
+description: '{"commit_id": "${git.commit.id.abbrev}", "commit_time": "${git.commit.time}"}'
+main: pl.daffit.pinkantibot.PinkAntiBotPlugin
+author: Daffit
