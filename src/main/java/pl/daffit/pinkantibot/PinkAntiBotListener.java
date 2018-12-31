@@ -6,9 +6,11 @@ import net.md_5.bungee.api.event.LoginEvent;
 import net.md_5.bungee.api.plugin.Listener;
 import net.md_5.bungee.event.EventHandler;
 
+import java.util.concurrent.TimeUnit;
+
 public class PinkAntiBotListener implements Listener {
 
-    private static final long SAME_NAME_LENGTH_COOOLDOWN = 60000L;
+    private static final long SAME_NAME_LENGTH_COOOLDOWN = TimeUnit.SECONDS.toMillis(60);
     private static final int MAX_SAME_NAME_LENGTH_SERIES = 10;
     private static final String SAME_NAME_LENGTH_MESSAGE = ChatColor.translateAlternateColorCodes('&',
             "&cNie mozesz teraz wejsc na serwer. Sprobuj ponownie za chwile.");
