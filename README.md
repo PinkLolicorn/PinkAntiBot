@@ -1,2 +1,2 @@
 # PinkAntiBot
-Simple Minecraft server protection.
+Prosta ochrona serwera Minecraft.
